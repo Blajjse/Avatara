@@ -1,0 +1,181 @@
+:root {
+    --header-bg-color: rgba(43, 74, 97, 0.871);
+    --accent-color: rgb(148, 207, 255);
+    --text-color: rgb(10, 56, 83);
+    --title-color: rgb(20, 20, 20);
+    --text-second-color: rgb(0, 0, 0);
+    --button-text-color: rgb(38, 198, 234);
+    --button-bg-color: rgb(11, 14, 102);
+    --button-border-color: rgb(38, 199, 234);
+    --language-bg_box-color: #FFFFFFB2;
+    --title-second-color: rgb(20, 20, 20);
+    --learning-navi-text: #000000;
+    --footer-text-color: #FFFFFF;
+    --main-font: "Inter", sans-serif;
+    --second-family: "Headland One", serif;
+}
+
+body {
+    font-family: var(--main-font);
+    color: #fff;
+    border: solid, black, 1px;
+    background-color: #000;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    width: 1030px;
+}
+
+.header {
+    background-color: var(--header-bg-color);
+    padding: 10px 0;
+    border: solid, black, 1px;
+}
+.header-swith {
+    background-color: var(--header-bg-color);
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    font-family: var(--second-family);
+    font-size: 24px;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header-item {
+    list-style: none;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-button {
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.header-link:hover {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #94cfff;
+}
+.hero {
+    background-image: url('./img/main-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 140px 20px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+.hero-text:nth-of-type(1) {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 298px;
+    margin-top: 180px;
+}
+.hero-text:nth-of-type(2) {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 376px;
+}
+.hero-button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 42px;
+    margin-bottom: 179px;
+    width: 260px;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-item {
+    padding: 4px;
+}
+.quotes {
+    background-color: #FFFFFF;
+    color: #000;
+    text-align: center;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.quotes-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: var(--second-family);
+    width: 886px;
+    margin: auto;
+}
+
+.quotes-subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.quotes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quotes-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trailor {
+    background-image: url('./img/trailer-bg.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+    width: auto;
+    height: 741px;
+}
+
+.trailor-button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 330px;
+}
