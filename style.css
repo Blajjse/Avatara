@@ -67,11 +67,19 @@ body {
 }
 
 .header-button {
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
+    background-color: #0b1c68;
+    border: 2px solid #33cfff;
+    border-radius: 12px 0 12px 0;
     cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 141px;
+    height: 42px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #26c6ea;
 }
 .header-link:hover {
     font-family: var(--font-family);
@@ -107,15 +115,24 @@ body {
     width: 376px;
 }
 .hero-button {
-    color: white;
-    border: none;
+    background-color: #0b1c68;
+    color: #33cfff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
     padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
+    border: 2px solid #33cfff;
+    border-radius: 12px 0 12px 0;
     cursor: pointer;
-    margin-top: 42px;
-    margin-bottom: 179px;
+    text-align: center;
+    display: inline-block;
     width: 260px;
+    height: 80px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #26c7ea;
+    margin-top: 42px;
 }
 .hero-container {
     display: flex;
@@ -173,9 +190,19 @@ body {
 }
 
 .trailor-button {
-    color: white;
+    display: flex;
+    background-color: #0b1c68;
     padding: 10px 20px;
-    border-radius: 20px;
     cursor: pointer;
-    margin-top: 330px;
+align-items: center;
+    display: inline-block;
+    border: 3px solid #26c7ea;
+    border-radius: 45px 0;
+    width: 260px;
+    height: 80px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #26c7ea;
+    
 }
