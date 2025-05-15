@@ -29,9 +29,15 @@ body {
 }
 
 .header {
-    background-color: var(--header-bg-color);
-    padding: 10px 0;
-    border: solid, black, 1px;
+    background-image: url('./img/header-bg-two.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: left;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
 }
 .header-swith {
     background-color: var(--header-bg-color);
@@ -41,6 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 39px;
 }
 
 .header-logo {
@@ -67,19 +74,20 @@ body {
 }
 
 .header-button {
+    display: flex;
     background-color: #0b1c68;
-    border: 2px solid #33cfff;
-    border-radius: 12px 0 12px 0;
+    padding: 10px 20px;
     cursor: pointer;
-    text-align: center;
+    align-items: center;
     display: inline-block;
+    border: 3px solid #26c7ea;
+    border-radius: 45px 0;
     width: 141px;
     height: 42px;
     font-family: var(--second-family);
     font-weight: 400;
-    font-size: 20px;
-    text-align: justify;
-    color: #26c6ea;
+    font-size: 24px;
+    color: #26c7ea;
 }
 .header-link:hover {
     font-family: var(--font-family);
@@ -96,7 +104,7 @@ body {
     padding: 140px 20px;
     text-align: left;
     width: auto;
-    height: auto;
+    height: 740px;
 }
 
 .hero-text:nth-of-type(1) {
@@ -107,6 +115,17 @@ body {
     width: 298px;
     margin-top: 180px;
 }
+.hero-text:nth-of-type(1)::after {
+    content: '';
+    display: block;
+    width: 152px;
+    height: 40px;
+    background-image: url('./img/tourch.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto; 
+}
+
 .hero-text:nth-of-type(2) {
     font-family: var(--font-family);
     font-weight: 400;
@@ -115,24 +134,20 @@ body {
     width: 376px;
 }
 .hero-button {
+    display: flex;
     background-color: #0b1c68;
-    color: #33cfff;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
     padding: 10px 20px;
-    border: 2px solid #33cfff;
-    border-radius: 12px 0 12px 0;
     cursor: pointer;
-    text-align: center;
+    align-items: center;
     display: inline-block;
+    border: 3px solid #26c7ea;
+    border-radius: 45px 0;
     width: 260px;
     height: 80px;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 24px;
-    text-align: center;
     color: #26c7ea;
-    margin-top: 42px;
 }
 .hero-container {
     display: flex;
@@ -157,7 +172,16 @@ body {
     width: 886px;
     margin: auto;
 }
-
+.quotes-subtitle::after {
+    content: '';
+    display: block;
+    width: 400px;
+    height: 120px;
+    background-image: url('./img/imabird.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+} 
 .quotes-subtitle {
     font-size: 14px;
     margin-bottom: 20px;
@@ -171,13 +195,6 @@ body {
     justify-content: center;
     gap: 20px;
 }
-
-.quotes-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
 .trailor {
     background-image: url('./img/trailer-bg.png');
     background-size: cover;
@@ -192,9 +209,7 @@ body {
 .trailor-button {
     display: flex;
     background-color: #0b1c68;
-    padding: 10px 20px;
     cursor: pointer;
-align-items: center;
     display: inline-block;
     border: 3px solid #26c7ea;
     border-radius: 45px 0;
@@ -204,5 +219,5 @@ align-items: center;
     font-weight: 400;
     font-size: 24px;
     color: #26c7ea;
-    
+    margin-top: 330px;
 }
